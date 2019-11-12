@@ -4,7 +4,7 @@
       <input
         class="p-2 w-full mr-2 block text-xl font-bold"
         :value="task.name"
-        v-on:keyup.enter="updateTaskProperty($event, 'name')"
+        @keyup.enter="updateTaskProperty($event, 'name')"
         @change="updateTaskProperty($event, 'name')"
       />
       <textarea
