@@ -1,4 +1,6 @@
-# watch-us-build-trello
+# Trello Clone using VueJS
+
+![](trello-clone-screenshot.PNG)
 
 ## Project setup
 ```
